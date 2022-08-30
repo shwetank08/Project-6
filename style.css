@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Allerta';
+    font-style: normal;
+    font-weight: 400;
+}
+
+#navbarMonstera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1.2rem 1.2rem;
+}
+#navMid{
+    display: inherit;
+    justify-content: space-between;
+    flex-grow: 0.25;
+    flex-direction: row;
+    padding: 0.25rem 0.25rem;
+}
+#navMid div:first-child{
+    border-bottom: 3px solid #000000;
+}
+#navEnd, #navEnd>div{
+    display: flex;
+    /* justify-content:end; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 0.1;
+    margin: 0.25rem 1.25rem;
+}
+#midWhole{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    padding: .2rem;
+    margin: .5rem; 
+}
+#imgMain{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 40rem;
+}
+
+#midWholePart13, .midWholePart13Parts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem
+   
+}
+
+#midWholePart1{
+    padding: 8.2rem;
+}
+
+#midWholePart122{
+    position: absolute;
+    right: 33rem;
+    bottom: .3rm;
+}
+#midWholePart121{
+    font-size: .8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    
+}
+#midWholePart121 div h1{
+    background-color: #466d4f;
+    padding: .7rem 2rem;
+    border-radius: 30px;
+}
+
+#midWholePart121 div{
+    margin-right: .5rem;
+
+}
+
+#midWholePart122 img{
+    height: 15px;
+    position: static;
+}
+#monstera{
+    font-size: 100px;
+    color: #000000;
+    font-weight: bolder;
+}
+#midWholePart12{
+    display: inherit;
+    margin: 55px 4px;
+}
+.midWholePart13Parts h4{
+    font-style: bold;
+    font-size: larger;
+    margin-bottom: 2px;
+}
+.midWholePart13Parts img{
+    padding: 2px 8px;
+}
+.midWholePart13Parts p{
+    /* height: 20px; */
+    flex-direction: row;
+    font-size: small;
+    max-width: 20ch;
+}
+
+
